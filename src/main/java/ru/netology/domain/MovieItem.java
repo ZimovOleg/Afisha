@@ -8,10 +8,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 
-public class Movie {
+public class MovieItem {
     private int id;
     private int movieId;
     private String movieName;
     private String movieGenre;
-    private String moviePresentTomorrow;
+    private boolean moviePresentTomorrow;
 }
